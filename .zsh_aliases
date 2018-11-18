@@ -1,0 +1,39 @@
+
+#     Don't forget to put the line below in.zshrc file
+#     source ~/.zsh_aliases
+
+
+# hardware connection lost. Target landing ship. Countermeasures.
+alias sag='sudo apt-get'
+alias suu='sudo apt-get update && sudo apt-get upgrade && sudo apt-get update'
+
+# custom command shortcuts
+alias h='history'
+alias c='clear'
+alias l='ls -a'
+alias cpd='clear && pwd'
+alias cpl='clear && pwd && ls -lah -F'
+alias xxx='exit'
+
+# getting rid of command not found error
+alias cd~='~'
+alias cd..='cd ..'
+
+# getting out of the current directory
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+
+# colorize grep
+alias grep='grep --color=auto'
+
+# search in history
+alias hs='history|grep'
+
+# create a directory and navigate to it
+mkcd(){
+	mkdir -p $1; cd$1)
+}
+
