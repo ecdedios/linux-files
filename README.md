@@ -2,7 +2,7 @@ _These are just backup files to be used everytime I do a new Linux distro._
 
 --
 
-# Title of the Project
+# Linux Files
 > Bash aliases et cetera..
 
 includes functions
