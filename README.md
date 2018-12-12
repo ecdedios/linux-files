@@ -1,17 +1,16 @@
-_A template for starting a Github project._
+_These are just backup files to be used everytime I do a new Linux distro._
 
 --
 
 # Title of the Project
-> One line short description of project.
+> Bash aliases et cetera..
 
-Long description of the project encompassing multiple
-lines et cetera et cetera.
+includes functions
 
 
 ## Usage
 
-Additional instructions...
+Use wth iTerm
 
 
 ## Meta
